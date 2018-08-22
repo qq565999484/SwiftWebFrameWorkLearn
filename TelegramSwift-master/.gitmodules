@@ -1,0 +1,21 @@
+[submodule "submodules/Postbox"]
+	path = submodules/Postbox
+	url = https://github.com/peter-iakovlev/Postbox.git
+[submodule "submodules/TelegramCore"]
+	path = submodules/TelegramCore
+	url = https://github.com/peter-iakovlev/TelegramCore.git
+[submodule "Signals"]
+	path = Signals
+	url = https://github.com/peter-iakovlev/Signals.git
+[submodule "submodules/Signals"]
+	path = submodules/Signals
+	url = https://github.com/peter-iakovlev/Signals.git
+[submodule "submodules/MtProtoKit"]
+	path = submodules/MtProtoKit
+	url = https://github.com/peter-iakovlev/MtProtoKit.git
+[submodule "submodules/libtgvoip"]
+	path = submodules/libtgvoip
+	url = https://github.com/grishka/libtgvoip
+[submodule "submodules/Sparkle"]
+	path = submodules/Sparkle
+	url = https://github.com/sparkle-project/Sparkle

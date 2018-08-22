@@ -1,0 +1,8 @@
+Packages
+.build
+Sources/Tester/
+Public
+Resources
+.DS_Store
+*.swp
+*.xcodeproj

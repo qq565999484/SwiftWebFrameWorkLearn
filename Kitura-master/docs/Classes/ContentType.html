@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ContentType Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/ContentType" class="dashAnchor"></a>
+
+    <a title="ContentType Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          Kitura Docs
+        </a>
+         (99% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/IBM-Swift/Kitura/">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">Kitura Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      ContentType Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BodyParser.html">BodyParser</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BodyParserMultiValue.html">BodyParserMultiValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ContentType.html">ContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Kitura.html">Kitura</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RouteRegex.html">RouteRegex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Router.html">Router</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RouterMiddlewareGenerator.html">RouterMiddlewareGenerator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RouterRequest.html">RouterRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RouterResponse.html">RouterResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/StaticFileServer.html">StaticFileServer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/StaticFileServer/CacheOptions.html">– CacheOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/StaticFileServer/Options.html">– Options</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/JSONPError.html">JSONPError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/LinkParameter.html">LinkParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ParsedBody.html">ParsedBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/RouterMethod.html">RouterMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/DecodingError.html">DecodingError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ResponseHeadersSetter.html">ResponseHeadersSetter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RouterMiddleware.html">RouterMiddleware</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TypeSafeMiddleware.html">TypeSafeMiddleware</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CodableHelpers.html">CodableHelpers</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/HTTPVersion.html">HTTPVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Headers.html">Headers</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Part.html">Part</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Part/HeaderType.html">– HeaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SSLConfig.html">SSLConfig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Kitura14HTTPStatusCodea">HTTPStatusCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Kitura16LifecycleHandlera">LifecycleHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Kitura12RequestErrora">RequestError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Kitura13RouterHandlera">RouterHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Kitura22RouterParameterHandlera">RouterParameterHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Kitura17WrittenDataFiltera">WrittenDataFilter</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>ContentType</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ContentType</span></code></pre>
+
+                </div>
+              </div>
+            <p>The <code>ContentType</code> class provides functions to determine the MIME content type for a given file extension. The user can pass in a complete file name e.g. <q>foo.png</q> or just the file extension e.g. <q>png</q>, or they can pass in both a MIME content type and a file extension and query whether they match.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+
+<p>In this example, a <code>ContentType</code> instance is initialised called contentType. This instance is then used to obtain the MIME content type of the file <q>foo.png</q>, which is identified as <q>image/png</q>.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">contentType</span> <span class="o">=</span> <span class="kt">ContentType</span><span class="o">.</span><span class="n">sharedInstance</span>
+<span class="k">let</span> <span class="nv">result</span> <span class="o">=</span> <span class="n">contentType</span><span class="o">.</span><span class="nf">getContentType</span><span class="p">(</span><span class="nv">forFileName</span><span class="p">:</span> <span class="s">"foo.png"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">describing</span><span class="p">:</span> <span class="n">result</span><span class="p">))</span>
+<span class="c1">// Prints Optional("image/png")</span>
+</code></pre>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura11ContentTypeC14sharedInstanceACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura11ContentTypeC14sharedInstanceACvpZ">sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shared singleton instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sharedInstance</span> <span class="o">=</span> <span class="kt">ContentType</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura11ContentTypeC03getbC0SSSgSS12forExtension_tF"></a>
+                    <a name="//apple_ref/swift/Method/getContentType(forExtension:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura11ContentTypeC03getbC0SSSgSS12forExtension_tF">getContentType(forExtension:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the content type for the given file extension.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">contentType</span> <span class="o">=</span> <span class="kt">ContentType</span><span class="o">.</span><span class="n">sharedInstance</span>
+<span class="k">let</span> <span class="nv">result</span> <span class="o">=</span> <span class="n">contentType</span><span class="o">.</span><span class="nf">getContentType</span><span class="p">(</span><span class="nv">forExtension</span><span class="p">:</span> <span class="s">"js"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">describing</span><span class="p">:</span> <span class="n">result</span><span class="p">))</span>
+<span class="c1">//Prints Optional("application/javascript")</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getContentType</span><span class="p">(</span><span class="n">forExtension</span> <span class="nv">ext</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>forExtension</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The file extension.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An Optional String for the content type.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura11ContentTypeC03getbC0SSSgSS11forFileName_tF"></a>
+                    <a name="//apple_ref/swift/Method/getContentType(forFileName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura11ContentTypeC03getbC0SSSgSS11forFileName_tF">getContentType(forFileName:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the content type for the given file based on its extension.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">contentType</span> <span class="o">=</span> <span class="kt">ContentType</span><span class="o">.</span><span class="n">sharedInstance</span>
+<span class="k">let</span> <span class="nv">result</span> <span class="o">=</span> <span class="n">contentType</span><span class="o">.</span><span class="nf">getContentType</span><span class="p">(</span><span class="nv">forFileName</span><span class="p">:</span> <span class="s">"test.html"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">describing</span><span class="p">:</span> <span class="n">result</span><span class="p">))</span>
+<span class="c1">//Prints Optional("text/html")</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getContentType</span><span class="p">(</span><span class="n">forFileName</span> <span class="nv">fileName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>forFileName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The file name.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An Optional String for the content type.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura11ContentTypeC02isbC0SbSS_SS02ofC0tF"></a>
+                    <a name="//apple_ref/swift/Method/isContentType(_:ofType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura11ContentTypeC02isbC0SbSS_SS02ofC0tF">isContentType(_:ofType:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check if the message content type matches the type descriptor.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">contentType</span> <span class="o">=</span> <span class="kt">ContentType</span><span class="o">.</span><span class="n">sharedInstance</span>
+<span class="k">var</span> <span class="nv">result</span> <span class="o">=</span> <span class="n">contentType</span><span class="o">.</span><span class="nf">isContentType</span><span class="p">(</span><span class="s">"application/json"</span><span class="p">,</span> <span class="nv">ofType</span><span class="p">:</span> <span class="s">"json"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">describing</span><span class="p">:</span> <span class="n">result</span><span class="p">))</span>
+<span class="c1">//Prints true</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isContentType</span><span class="p">(</span><span class="n">_</span> <span class="nv">messageContentType</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">ofType</span> <span class="nv">typeDescriptor</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messageContentType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The content type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ofType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The description of the type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>True if the types matched.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">IBM</a>. All rights reserved. (Last updated: 2018-06-01)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

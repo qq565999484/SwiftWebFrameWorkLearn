@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="q0j-Nx-78X">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="1Db-jJ-po2">
+            <objects>
+                <navigationController id="q0j-Nx-78X" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qSv-WZ-vWR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dMY-e9-Tnq" kind="relationship" relationship="rootViewController" id="pel-zy-O1k"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0kX-XT-hVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-50" y="146"/>
+        </scene>
+        <!--登录-->
+        <scene sceneID="gS8-3s-iQV">
+            <objects>
+                <viewController id="dMY-e9-Tnq" customClass="LoginViewController" customModule="GGQ" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ROh-yn-1XD"/>
+                        <viewControllerLayoutGuide type="bottom" id="8cC-j6-0p5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N6V-mJ-g5A">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HT0-B0-fDv">
+                                <rect key="frame" x="61" y="40" width="351" height="130"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="icon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="b9M-eF-LdS">
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="130"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="126" height="130"/>
+                                        </variation>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="U5o-lU-p2g">
+                                        <rect key="frame" x="126" y="0.0" width="225" height="130"/>
+                                        <subviews>
+                                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="登录：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAs-sn-vmu">
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="24"/>
+                                                <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="225" height="21"/>
+                                                </variation>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="hhb-eD-mFv">
+                                                <rect key="frame" x="0.0" y="44" width="225" height="86"/>
+                                                <subviews>
+                                                    <button contentMode="scaleToFill" horizontalHuggingPriority="249" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpP-AO-JRq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="35" height="86"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <state key="normal" image="icon_weibo"/>
+                                                    </button>
+                                                    <button contentMode="scaleToFill" ambiguous="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dG3-gd-5Df">
+                                                        <rect key="frame" x="95" y="0.0" width="35" height="86"/>
+                                                        <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <state key="normal" image="icon_wechat"/>
+                                                    </button>
+                                                    <button contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TjY-Rt-fhI">
+                                                        <rect key="frame" x="190" y="0.0" width="35" height="86"/>
+                                                        <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <state key="normal" image="icon_github"/>
+                                                    </button>
+                                                </subviews>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="41" width="225" height="35"/>
+                                                </variation>
+                                            </stackView>
+                                        </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="186" y="27" width="225" height="76"/>
+                                        </variation>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=compact" alignment="center" axis="horizontal" distribution="fillProportionally" misplaced="YES" spacing="60">
+                                    <rect key="frame" x="95" y="41" width="411" height="130"/>
+                                </variation>
+                                <variation key="widthClass=compact" alignment="center" axis="vertical" spacing="120"/>
+                            </stackView>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="优质 Swift 翻译资源" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJX-pa-Poj">
+                                <rect key="frame" x="237" y="486" width="127" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NJX-pa-Poj" firstAttribute="centerX" secondItem="N6V-mJ-g5A" secondAttribute="centerX" id="61c-Zb-R8z"/>
+                            <constraint firstItem="HT0-B0-fDv" firstAttribute="centerX" secondItem="N6V-mJ-g5A" secondAttribute="centerX" id="ODi-fI-zVa"/>
+                            <constraint firstItem="HT0-B0-fDv" firstAttribute="centerX" secondItem="N6V-mJ-g5A" secondAttribute="centerX" id="UJV-OC-l6p"/>
+                            <constraint firstItem="8cC-j6-0p5" firstAttribute="top" secondItem="NJX-pa-Poj" secondAttribute="bottom" constant="30" id="jHa-bj-Swp"/>
+                            <constraint firstItem="HT0-B0-fDv" firstAttribute="top" secondItem="ROh-yn-1XD" secondAttribute="bottom" constant="60" id="l0O-Jp-YfU"/>
+                            <constraint firstItem="HT0-B0-fDv" firstAttribute="centerY" secondItem="N6V-mJ-g5A" secondAttribute="centerY" id="sXZ-YS-I61"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ODi-fI-zVa"/>
+                                <exclude reference="UJV-OC-l6p"/>
+                                <exclude reference="l0O-Jp-YfU"/>
+                                <exclude reference="sXZ-YS-I61"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="UJV-OC-l6p"/>
+                                <include reference="sXZ-YS-I61"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="ODi-fI-zVa"/>
+                                <include reference="l0O-Jp-YfU"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="登录" id="gfY-ep-tGp">
+                        <barButtonItem key="leftBarButtonItem" image="btn_back" id="u77-SH-hvq">
+                            <color key="tintColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="githubButton" destination="TjY-Rt-fhI" id="uWK-IS-MbF"/>
+                        <outlet property="wechatButton" destination="dG3-gd-5Df" id="rIj-du-cgb"/>
+                        <outlet property="weiboButton" destination="MpP-AO-JRq" id="0Om-YS-S32"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tnY-WH-DYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673" y="146"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_back" width="14" height="24"/>
+        <image name="icon_github" width="35" height="35"/>
+        <image name="icon_logo" width="126" height="130"/>
+        <image name="icon_wechat" width="35" height="29"/>
+        <image name="icon_weibo" width="35" height="29"/>
+    </resources>
+</document>

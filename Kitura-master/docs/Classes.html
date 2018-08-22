@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Classes  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="Classes  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          Kitura Docs
+        </a>
+         (99% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/IBM-Swift/Kitura/">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">Kitura Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Classes  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/BodyParser.html">BodyParser</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/BodyParserMultiValue.html">BodyParserMultiValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ContentType.html">ContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Kitura.html">Kitura</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/RouteRegex.html">RouteRegex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Router.html">Router</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/RouterMiddlewareGenerator.html">RouterMiddlewareGenerator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/RouterRequest.html">RouterRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/RouterResponse.html">RouterResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/StaticFileServer.html">StaticFileServer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/StaticFileServer/CacheOptions.html">– CacheOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/StaticFileServer/Options.html">– Options</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/JSONPError.html">JSONPError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/LinkParameter.html">LinkParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/ParsedBody.html">ParsedBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/RouterMethod.html">RouterMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/DecodingError.html">DecodingError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ResponseHeadersSetter.html">ResponseHeadersSetter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/RouterMiddleware.html">RouterMiddleware</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/TypeSafeMiddleware.html">TypeSafeMiddleware</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/CodableHelpers.html">CodableHelpers</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/HTTPVersion.html">HTTPVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Headers.html">Headers</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Part.html">Part</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Part/HeaderType.html">– HeaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SSLConfig.html">SSLConfig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Kitura14HTTPStatusCodea">HTTPStatusCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Kitura16LifecycleHandlera">LifecycleHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Kitura12RequestErrora">RequestError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Kitura13RouterHandlera">RouterHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Kitura22RouterParameterHandlera">RouterParameterHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Kitura17WrittenDataFiltera">WrittenDataFilter</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>Classes</h1>
+            <p>The following classes are available globally.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura6RouterC"></a>
+                    <a name="//apple_ref/swift/Class/Router" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura6RouterC">Router</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>Router</code> provides the external interface for routing requests to
+the appropriate code to handle them. This includes:</p>
+
+<ul>
+<li>Routing requests to closures of type <code><a href="Typealiases.html#/s:6Kitura13RouterHandlera">RouterHandler</a></code></li>
+<li>Routing requests to the handle function of classes that implement the
+<code><a href="Protocols/RouterMiddleware.html">RouterMiddleware</a></code> protocol.</li>
+<li>Routing requests to a <code>TemplateEngine</code> to generate the appropriate output.</li>
+<li>Serving the landing page when someone makes an HTTP request with a path of slash (/).</li>
+</ul>
+
+                        <a href="Classes/Router.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">Router</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6KituraAAC"></a>
+                    <a name="//apple_ref/swift/Class/Kitura" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6KituraAAC">Kitura</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A set of helper functions to make it easier to create, start, and stop Kitura based servers.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+
+<p>In this example, a function called run is created, inside a server <code>Application.swift</code> file. This will create a Kitura server on the specified port, using the given router and run this created server. This <code>Application.run</code> function would then be called in your <code>main.swift</code> file as a non-returning function to initilize your Kitura server.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">router</span> <span class="o">=</span> <span class="kt">Router</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">port</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">8080</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">run</span><span class="p">()</span> <span class="k">throws</span><span class="p">{</span>
+<span class="o">...</span>
+   <span class="kt">Kitura</span><span class="o">.</span><span class="nf">addHTTPServer</span><span class="p">(</span><span class="nv">onPort</span><span class="p">:</span> <span class="n">port</span><span class="p">,</span> <span class="nv">with</span><span class="p">:</span> <span class="n">router</span><span class="p">)</span>
+   <span class="kt">Kitura</span><span class="o">.</span><span class="nf">run</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre>
+
+                        <a href="Classes/Kitura.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">Kitura</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura10RouteRegexC"></a>
+                    <a name="//apple_ref/swift/Class/RouteRegex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura10RouteRegexC">RouteRegex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A set of helper functions for router path matching using regular expression.</p>
+
+                        <a href="Classes/RouteRegex.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">RouteRegex</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/RouterMiddlewareGenerator"></a>
+                <a name="//apple_ref/swift/Section/RouterMiddlewareGenerator" class="dashAnchor"></a>
+                <a href="#/RouterMiddlewareGenerator">
+                  <h3 class="section-name">RouterMiddlewareGenerator</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura25RouterMiddlewareGeneratorC"></a>
+                    <a name="//apple_ref/swift/Class/RouterMiddlewareGenerator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura25RouterMiddlewareGeneratorC">RouterMiddlewareGenerator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create an on the fly <code><a href="Protocols/RouterMiddleware.html">RouterMiddleware</a></code> from a <code><a href="Typealiases.html#/s:6Kitura13RouterHandlera">RouterHandler</a></code> closure.</p>
+
+                        <a href="Classes/RouterMiddlewareGenerator.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">RouterMiddlewareGenerator</span><span class="p">:</span> <span class="kt"><a href="Protocols/RouterMiddleware.html">RouterMiddleware</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/RouterRequest"></a>
+                <a name="//apple_ref/swift/Section/RouterRequest" class="dashAnchor"></a>
+                <a href="#/RouterRequest">
+                  <h3 class="section-name">RouterRequest</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura13RouterRequestC"></a>
+                    <a name="//apple_ref/swift/Class/RouterRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura13RouterRequestC">RouterRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Router request.</p>
+
+                        <a href="Classes/RouterRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">RouterRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/RouterResponse"></a>
+                <a name="//apple_ref/swift/Section/RouterResponse" class="dashAnchor"></a>
+                <a href="#/RouterResponse">
+                  <h3 class="section-name">RouterResponse</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura14RouterResponseC"></a>
+                    <a name="//apple_ref/swift/Class/RouterResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura14RouterResponseC">RouterResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Router response that the server sends as a reply to <code><a href="Classes/RouterRequest.html">RouterRequest</a></code>.</p>
+
+                        <a href="Classes/RouterResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">RouterResponse</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/BodyParser"></a>
+                <a name="//apple_ref/swift/Section/BodyParser" class="dashAnchor"></a>
+                <a href="#/BodyParser">
+                  <h3 class="section-name">BodyParser</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura10BodyParserC"></a>
+                    <a name="//apple_ref/swift/Class/BodyParser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura10BodyParserC">BodyParser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>BodyParser</code> parses the body of the request prior to sending it to the handler. It reads the Content-Type of the message header and populates the <code><a href="Classes/RouterRequest.html">RouterRequest</a></code> body field with a corresponding <code><a href="Enums/ParsedBody.html">ParsedBody</a></code> enumeration.</p>
+
+<p>In order for the BodyParser to be used it must first be registered with any routes that are interested in the <code><a href="Enums/ParsedBody.html">ParsedBody</a></code> payload.</p>
+<h3 id='parsedbody-enumeration' class='heading'>ParsedBody enumeration:</h3>
+
+<p>The mappings from the incoming Content-Type to an internal representation of the body are as follows:</p>
+<pre class="highlight swift"><code>   <span class="o">.</span><span class="nf">json</span><span class="p">([</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">])</span>          <span class="c1">// "application/json"</span>
+   <span class="o">.</span><span class="nf">text</span><span class="p">(</span><span class="kt">String</span><span class="p">)</span>                 <span class="c1">// "text/*"</span>
+   <span class="o">.</span><span class="nf">urlEncoded</span><span class="p">([</span><span class="kt">String</span><span class="p">:</span><span class="kt">String</span><span class="p">])</span>  <span class="c1">// "application/x-www-form-urlencoded"</span>
+   <span class="o">.</span><span class="nf">multipart</span><span class="p">([</span><span class="kt">Part</span><span class="p">])</span>            <span class="c1">// "multipart/form-data"</span>
+   <span class="o">.</span><span class="nf">raw</span><span class="p">(</span><span class="kt">Data</span><span class="p">)</span>                    <span class="c1">// Any other Content-Type</span>
+</code></pre>
+
+<p>Each case has a corresponding convenience property, e.g. <code>asURLEncoded: [String:String]</code>, for accessing the associated data.</p>
+
+<p><strong>Note</strong>: If you have not declared a Content-Type header, <code><a href="Enums/ParsedBody.html">ParsedBody</a></code> will be <code>nil</code>.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+
+<p>In this example, all routes to the BodyParser middleware are registered to the <code>BodyParser</code> middleware. A request with <q>application/json</q>, ContentType header is received. It is then parsed as JSON and the value for <q>name</q> is returned in the response.</p>
+<pre class="highlight swift"><code><span class="n">router</span><span class="o">.</span><span class="nf">all</span><span class="p">(</span><span class="s">"/name"</span><span class="p">,</span> <span class="nv">middleware</span><span class="p">:</span> <span class="kt">BodyParser</span><span class="p">())</span>
+<span class="n">router</span><span class="o">.</span><span class="nf">post</span><span class="p">(</span><span class="s">"/name"</span><span class="p">)</span> <span class="p">{</span> <span class="n">request</span><span class="p">,</span> <span class="n">response</span><span class="p">,</span> <span class="n">next</span> <span class="k">in</span>
+    <span class="k">guard</span> <span class="k">let</span> <span class="nv">jsonBody</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">parsedBody</span><span class="p">?</span><span class="o">.</span><span class="n">asJSON</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="nf">next</span><span class="p">()</span>
+        <span class="k">return</span>
+    <span class="p">}</span>
+    <span class="k">let</span> <span class="nv">name</span> <span class="o">=</span> <span class="n">jsonBody</span><span class="p">[</span><span class="s">"name"</span><span class="p">]</span> <span class="k">as?</span> <span class="kt">String</span> <span class="p">??</span> <span class="s">""</span>
+    <span class="k">try</span> <span class="n">response</span><span class="o">.</span><span class="nf">send</span><span class="p">(</span><span class="s">"Hello </span><span class="se">\(</span><span class="n">name</span><span class="se">)</span><span class="s">"</span><span class="p">)</span><span class="o">.</span><span class="nf">end</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre>
+
+<p><strong>Note</strong>: When using Codable Routing in Kitura 2.x the BodyParser should not be registered to any codable routes (doing so will log the following error <q>No data in request. Codable routes do not allow the use of a BodyParser.</q> and the route handler will not be executed).</p>
+
+                        <a href="Classes/BodyParser.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">BodyParser</span><span class="p">:</span> <span class="kt"><a href="Protocols/RouterMiddleware.html">RouterMiddleware</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura20BodyParserMultiValueC"></a>
+                    <a name="//apple_ref/swift/Class/BodyParserMultiValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura20BodyParserMultiValueC">BodyParserMultiValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Classes/BodyParserMultiValue.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">BodyParserMultiValue</span><span class="p">:</span> <span class="kt"><a href="Classes/BodyParser.html">BodyParser</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/ContentType"></a>
+                <a name="//apple_ref/swift/Section/ContentType" class="dashAnchor"></a>
+                <a href="#/ContentType">
+                  <h3 class="section-name">ContentType</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura11ContentTypeC"></a>
+                    <a name="//apple_ref/swift/Class/ContentType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura11ContentTypeC">ContentType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>ContentType</code> class provides functions to determine the MIME content type for a given file extension. The user can pass in a complete file name e.g. <q>foo.png</q> or just the file extension e.g. <q>png</q>, or they can pass in both a MIME content type and a file extension and query whether they match.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+
+<p>In this example, a <code>ContentType</code> instance is initialised called contentType. This instance is then used to obtain the MIME content type of the file <q>foo.png</q>, which is identified as <q>image/png</q>.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">contentType</span> <span class="o">=</span> <span class="kt">ContentType</span><span class="o">.</span><span class="n">sharedInstance</span>
+<span class="k">let</span> <span class="nv">result</span> <span class="o">=</span> <span class="n">contentType</span><span class="o">.</span><span class="nf">getContentType</span><span class="p">(</span><span class="nv">forFileName</span><span class="p">:</span> <span class="s">"foo.png"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">describing</span><span class="p">:</span> <span class="n">result</span><span class="p">))</span>
+<span class="c1">// Prints Optional("image/png")</span>
+</code></pre>
+
+                        <a href="Classes/ContentType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ContentType</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/StaticFileServer"></a>
+                <a name="//apple_ref/swift/Section/StaticFileServer" class="dashAnchor"></a>
+                <a href="#/StaticFileServer">
+                  <h3 class="section-name">StaticFileServer</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kitura16StaticFileServerC"></a>
+                    <a name="//apple_ref/swift/Class/StaticFileServer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kitura16StaticFileServerC">StaticFileServer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A router middleware that serves static files from a given path.</p>
+
+                        <a href="Classes/StaticFileServer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">StaticFileServer</span><span class="p">:</span> <span class="kt"><a href="Protocols/RouterMiddleware.html">RouterMiddleware</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">IBM</a>. All rights reserved. (Last updated: 2018-06-01)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
