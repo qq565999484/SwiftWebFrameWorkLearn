@@ -1,0 +1,5 @@
+.build/
+Packages/
+.DS_Store
+*.xcodeproj
+.idea
