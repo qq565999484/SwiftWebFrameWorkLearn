@@ -38,6 +38,23 @@ DEPENDENCIES:
   - SocketRocket
   - TPKeyboardAvoiding
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Appsee
+    - AsyncDisplayKit
+    - AudioBot
+    - AutoReview
+    - Base64
+    - DeviceGuru
+    - Fabric
+    - FXBlurView
+    - JPush
+    - PINCache
+    - PINRemoteImage
+    - pop
+    - SocketRocket
+    - TPKeyboardAvoiding
+
 SPEC CHECKSUMS:
   Appsee: c95173e65acaab0ffc8a082c70633c9f5f45d5f0
   AsyncDisplayKit: 011ea22a76a79a5bbfc14501fede6e0196a3c2f0
@@ -56,4 +73,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 06808c48662dcaada4a29b7856a582d886b36474
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.5.3
